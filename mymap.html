@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_603c07f3de3f4f898047134999301626 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_603c07f3de3f4f898047134999301626" ></div>
+        
+</body>
+<script>    
+    
+            var map_603c07f3de3f4f898047134999301626 = L.map(
+                "map_603c07f3de3f4f898047134999301626",
+                {
+                    center: [-0.789275, 113.921327],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_603c07f3de3f4f898047134999301626);
+
+            
+
+        
+    
+            var tile_layer_c17da174b07e433580401e6ec1c213bc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_603c07f3de3f4f898047134999301626);
+        
+    
+            var feature_group_248607f0d616437ea2fec7da9cb2cb0b = L.featureGroup(
+                {}
+            ).addTo(map_603c07f3de3f4f898047134999301626);
+        
+    
+            var marker_d4c1d9f9ff7b412fab86e06dad2a0019 = L.marker(
+                [-6.233194444444445, 106.8775],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_c326a7813bac4bbbbd9a7dd7c8e3b64e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4c1d9f9ff7b412fab86e06dad2a0019.setIcon(icon_c326a7813bac4bbbbd9a7dd7c8e3b64e);
+        
+    
+        var popup_b5541455d02f476fbdbcdc97a956412d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b86f56b7891401cbc10856b68a5c5e5 = $(`<div id="html_2b86f56b7891401cbc10856b68a5c5e5" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>41<br> <b>Lokasi : </b> Jatinegara, Jakarta Timur<br> <img src=https://drive.google.com/uc?id=1QynMFeE4ccR1zyqjcW_PID6S4Tw16G5m border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_b5541455d02f476fbdbcdc97a956412d.setContent(html_2b86f56b7891401cbc10856b68a5c5e5);
+        
+
+        marker_d4c1d9f9ff7b412fab86e06dad2a0019.bindPopup(popup_b5541455d02f476fbdbcdc97a956412d)
+        ;
+
+        
+    
+    
+            var marker_2a09372bbd464c16846ac15ed2966138 = L.marker(
+                [-6.483055555555556, 106.815],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_a2f89d461f734dedacd81c54dd0964f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2a09372bbd464c16846ac15ed2966138.setIcon(icon_a2f89d461f734dedacd81c54dd0964f6);
+        
+    
+        var popup_9664b377e4284b5286c77b2210dfbd43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13c6692e48a4a80b7be24443c56b7b7 = $(`<div id="html_a13c6692e48a4a80b7be24443c56b7b7" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>42<br> <b>Lokasi : </b> Cibinong, Kab, Bogor<br> <img src=https://drive.google.com/uc?id=1DBGhF3gMiBNLTYf0W_pNA-j_6RJ1Sz1h border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_9664b377e4284b5286c77b2210dfbd43.setContent(html_a13c6692e48a4a80b7be24443c56b7b7);
+        
+
+        marker_2a09372bbd464c16846ac15ed2966138.bindPopup(popup_9664b377e4284b5286c77b2210dfbd43)
+        ;
+
+        
+    
+    
+            var marker_bbd2662c16a44a13b9c41281031ccbec = L.marker(
+                [-6.332777777777777, 106.25805555555556],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_ebc072a269724e8ca2df4addb112ff5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bbd2662c16a44a13b9c41281031ccbec.setIcon(icon_ebc072a269724e8ca2df4addb112ff5b);
+        
+    
+        var popup_98e4bcd469f345798264a3985b4643a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8366943bcad2410db39eaf1d8d980e1a = $(`<div id="html_8366943bcad2410db39eaf1d8d980e1a" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>43<br> <b>Lokasi : </b> Rangkasbitung, Kab, Lebak<br> <img src=https://drive.google.com/uc?id=1na3uXyK6pea1i1uBJBgoWN_LnIdRj205 border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_98e4bcd469f345798264a3985b4643a5.setContent(html_8366943bcad2410db39eaf1d8d980e1a);
+        
+
+        marker_bbd2662c16a44a13b9c41281031ccbec.bindPopup(popup_98e4bcd469f345798264a3985b4643a5)
+        ;
+
+        
+    
+    
+            var marker_27edd899688048b0aa972c9db1e1a277 = L.marker(
+                [-6.0633333333333335, 106.63277777777778],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_6ad956233c5f4651bca36d076dc255ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27edd899688048b0aa972c9db1e1a277.setIcon(icon_6ad956233c5f4651bca36d076dc255ad);
+        
+    
+        var popup_b232e71272074c7e88fedd7dabc6c09b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dcf3d88efb84b068383bc1fb75ffdfc = $(`<div id="html_8dcf3d88efb84b068383bc1fb75ffdfc" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>44<br> <b>Lokasi : </b> Pakuhaji, Kab, Tangerang<br> <img src=https://drive.google.com/uc?id=1Uzs8MSQ5mFQ_x89YkQ-obOfqAa6lM4l8 border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_b232e71272074c7e88fedd7dabc6c09b.setContent(html_8dcf3d88efb84b068383bc1fb75ffdfc);
+        
+
+        marker_27edd899688048b0aa972c9db1e1a277.bindPopup(popup_b232e71272074c7e88fedd7dabc6c09b)
+        ;
+
+        
+    
+    
+            var marker_7520fc4a85424e449b046f5fec3847b7 = L.marker(
+                [-6.723333333333334, 106.81388888888888],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_d4dbbd678140449bbbe1dbdc7a9f18df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7520fc4a85424e449b046f5fec3847b7.setIcon(icon_d4dbbd678140449bbbe1dbdc7a9f18df);
+        
+    
+        var popup_9e6941d767aa4fb7b1282cc83cf135ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce0a3e733bd14c5d934782d77e9484b1 = $(`<div id="html_ce0a3e733bd14c5d934782d77e9484b1" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>45<br> <b>Lokasi : </b> Cigombong, Kab, Bogor<br> <img src=https://drive.google.com/uc?id=1Rigpl4OYk18GfQz5KyDe9wbQVPwEhGMK border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_9e6941d767aa4fb7b1282cc83cf135ed.setContent(html_ce0a3e733bd14c5d934782d77e9484b1);
+        
+
+        marker_7520fc4a85424e449b046f5fec3847b7.bindPopup(popup_9e6941d767aa4fb7b1282cc83cf135ed)
+        ;
+
+        
+    
+    
+            var marker_429b838a019443489a87c60acd2b2f11 = L.marker(
+                [-6.803611111111111, 107.1111111111111],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_a39ea75aa4834563b43dffb57f1f176c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_429b838a019443489a87c60acd2b2f11.setIcon(icon_a39ea75aa4834563b43dffb57f1f176c);
+        
+    
+        var popup_09022d8739e649bc8b5407456baa26ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8db90a154b043ba9316f4efed57d3bd = $(`<div id="html_f8db90a154b043ba9316f4efed57d3bd" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>46<br> <b>Lokasi : </b> Cugenang, Kab, Cianjur<br> <img src=https://drive.google.com/uc?id=1RqRnGZTN5vqD0UhYXLeybiISaEP-GJSX border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_09022d8739e649bc8b5407456baa26ba.setContent(html_f8db90a154b043ba9316f4efed57d3bd);
+        
+
+        marker_429b838a019443489a87c60acd2b2f11.bindPopup(popup_09022d8739e649bc8b5407456baa26ba)
+        ;
+
+        
+    
+    
+            var marker_a7d4fc203f2f492b8f0dc63de8355f58 = L.marker(
+                [-6.5072222222222225, 107.1388888888889],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_4f6523c2ceb447b8b4244f3201ee6318 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7d4fc203f2f492b8f0dc63de8355f58.setIcon(icon_4f6523c2ceb447b8b4244f3201ee6318);
+        
+    
+        var popup_07f0c6ec61884573b9e67eb92f7ea52a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19ca7fcd9fb449c3a40009c64357aee4 = $(`<div id="html_19ca7fcd9fb449c3a40009c64357aee4" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>47<br> <b>Lokasi : </b> Cariu, Kab, Bogor<br> <img src=https://drive.google.com/uc?id=1qS9152sMecqIhsjJr6memDBIlMC_oAoC border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_07f0c6ec61884573b9e67eb92f7ea52a.setContent(html_19ca7fcd9fb449c3a40009c64357aee4);
+        
+
+        marker_a7d4fc203f2f492b8f0dc63de8355f58.bindPopup(popup_07f0c6ec61884573b9e67eb92f7ea52a)
+        ;
+
+        
+    
+    
+            var marker_31960a6db74e423b814c71a0f544a3b8 = L.marker(
+                [-6.408833333333334, 107.78471277777777],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_05ad04c67a59475f865b856c041cc497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_31960a6db74e423b814c71a0f544a3b8.setIcon(icon_05ad04c67a59475f865b856c041cc497);
+        
+    
+        var popup_373617cbc5c64f75942cb640bbdd6d09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7930c231da06471d83ba4d359265cef0 = $(`<div id="html_7930c231da06471d83ba4d359265cef0" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>48<br> <b>Lokasi : </b> Binong, Kab, Subang<br> <img src=https://drive.google.com/uc?id=1wtGwHaZeZfgjfVqyZ92Z-9G_vq0sl4J- border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_373617cbc5c64f75942cb640bbdd6d09.setContent(html_7930c231da06471d83ba4d359265cef0);
+        
+
+        marker_31960a6db74e423b814c71a0f544a3b8.bindPopup(popup_373617cbc5c64f75942cb640bbdd6d09)
+        ;
+
+        
+    
+    
+            var marker_28ef04a8f6e34d3eb59b03699ab46d86 = L.marker(
+                [-6.961202777777778, 107.78536666666666],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_b2b2cf6ba95040499f55bb49ad785848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_28ef04a8f6e34d3eb59b03699ab46d86.setIcon(icon_b2b2cf6ba95040499f55bb49ad785848);
+        
+    
+        var popup_00dbde2310c0425eab293e017381cb7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c38411f6805f4d96aaf8d6e90d8b8ddd = $(`<div id="html_c38411f6805f4d96aaf8d6e90d8b8ddd" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>49<br> <b>Lokasi : </b> Jatinangor, Kab, Sumedang<br> <img src=https://drive.google.com/uc?id=1_Q268v-KzKgUlP1byuE7EnTFOG3Wr330 border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_00dbde2310c0425eab293e017381cb7a.setContent(html_c38411f6805f4d96aaf8d6e90d8b8ddd);
+        
+
+        marker_28ef04a8f6e34d3eb59b03699ab46d86.bindPopup(popup_00dbde2310c0425eab293e017381cb7a)
+        ;
+
+        
+    
+    
+            var marker_d1fc84da027d4f9ebe3708fba9fff0c5 = L.marker(
+                [-6.869444444444445, 107.55513888888889],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_48ebb00f97fc42fd96b5ed29268e333c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1fc84da027d4f9ebe3708fba9fff0c5.setIcon(icon_48ebb00f97fc42fd96b5ed29268e333c);
+        
+    
+        var popup_55c0543ccb27491ca9c4de9cd8e5b7ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba1fd3f933c5414ba5b2dee82a436dd6 = $(`<div id="html_ba1fd3f933c5414ba5b2dee82a436dd6" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>50<br> <b>Lokasi : </b> Cimahi Utara, Kota Cimahi<br> <img src=https://drive.google.com/uc?id=1MoPr4CsH4GNX3Xf6W731ZnYUVt_HgDBj border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_55c0543ccb27491ca9c4de9cd8e5b7ed.setContent(html_ba1fd3f933c5414ba5b2dee82a436dd6);
+        
+
+        marker_d1fc84da027d4f9ebe3708fba9fff0c5.bindPopup(popup_55c0543ccb27491ca9c4de9cd8e5b7ed)
+        ;
+
+        
+    
+    
+            var marker_3164f84007e64dfe98dbcc7710565268 = L.marker(
+                [-6.893888888888888, 107.49002777777778],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_57936bef5a4b4fa9923c75af20647d6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3164f84007e64dfe98dbcc7710565268.setIcon(icon_57936bef5a4b4fa9923c75af20647d6b);
+        
+    
+        var popup_1d25c71eae624ef4801ec49af2d20621 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26f76373bab6432b986ee5662eb82b46 = $(`<div id="html_26f76373bab6432b986ee5662eb82b46" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>51<br> <b>Lokasi : </b> Batujajar, Kab, Bandung Barat<br> <img src=https://drive.google.com/uc?id=1mRXdFSoMjMwX_nGaQZP7ecx2qbxaju67 border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_1d25c71eae624ef4801ec49af2d20621.setContent(html_26f76373bab6432b986ee5662eb82b46);
+        
+
+        marker_3164f84007e64dfe98dbcc7710565268.bindPopup(popup_1d25c71eae624ef4801ec49af2d20621)
+        ;
+
+        
+    
+    
+            var marker_3075e9faad6a4ab48d67fba32cbeb73b = L.marker(
+                [-6.391111111111112, 107.22086111111112],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_0cc3c22ba7894717bb0bd64306883a4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3075e9faad6a4ab48d67fba32cbeb73b.setIcon(icon_0cc3c22ba7894717bb0bd64306883a4f);
+        
+    
+        var popup_dc6da6da7279462194ad416626612ca8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_575c27f13e8043edb4d7dea4cdfd986e = $(`<div id="html_575c27f13e8043edb4d7dea4cdfd986e" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>52<br> <b>Lokasi : </b> Cikarang Pusat, Kab, Bekasi<br> <img src=https://drive.google.com/uc?id=1Ak0Nh6hxjhB5-Pj9Siswn7_fHcMuKkOo border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_dc6da6da7279462194ad416626612ca8.setContent(html_575c27f13e8043edb4d7dea4cdfd986e);
+        
+
+        marker_3075e9faad6a4ab48d67fba32cbeb73b.bindPopup(popup_dc6da6da7279462194ad416626612ca8)
+        ;
+
+        
+    
+    
+            var marker_43470250fe0641d5b9325a172f99b47e = L.marker(
+                [-6.325833333333333, 107.31861111111111],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_c173b7b60e88482d9bd103d0b802ecd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43470250fe0641d5b9325a172f99b47e.setIcon(icon_c173b7b60e88482d9bd103d0b802ecd1);
+        
+    
+        var popup_59150a7678144188b1eae555b40d8c72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28042eb411ab4e42a3e4bf42511a830f = $(`<div id="html_28042eb411ab4e42a3e4bf42511a830f" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>53<br> <b>Lokasi : </b> Karawang Timur, Kab, Karawang<br> <img src=https://drive.google.com/uc?id=1QFUKkj4jxDfuEyVkKrHtLiEFzgvScABK border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_59150a7678144188b1eae555b40d8c72.setContent(html_28042eb411ab4e42a3e4bf42511a830f);
+        
+
+        marker_43470250fe0641d5b9325a172f99b47e.bindPopup(popup_59150a7678144188b1eae555b40d8c72)
+        ;
+
+        
+    
+    
+            var marker_2b9456698af74b60b9543dc82952e3ee = L.marker(
+                [-6.506388888888889, 107.39533333333334],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_ed710c0aed8a44d0891396fae7cfea89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2b9456698af74b60b9543dc82952e3ee.setIcon(icon_ed710c0aed8a44d0891396fae7cfea89);
+        
+    
+        var popup_78160724eaac4abf80d944b6922bc68c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7327efbf4c71498b8a7076a640e84c05 = $(`<div id="html_7327efbf4c71498b8a7076a640e84c05" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>54<br> <b>Lokasi : </b> Cikaobandung, Kab, Purwakarta<br> <img src=https://drive.google.com/uc?id=1iilbXnRgbg21Dir9CXaRx0AFP8MiUPLq border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_78160724eaac4abf80d944b6922bc68c.setContent(html_7327efbf4c71498b8a7076a640e84c05);
+        
+
+        marker_2b9456698af74b60b9543dc82952e3ee.bindPopup(popup_78160724eaac4abf80d944b6922bc68c)
+        ;
+
+        
+    
+    
+            var marker_847a070c94ec4a4cb25680a2c47efcb0 = L.marker(
+                [-6.852222222222222, 107.34866666666666],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_941c16b4b99d42dabc80a4565f031dd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_847a070c94ec4a4cb25680a2c47efcb0.setIcon(icon_941c16b4b99d42dabc80a4565f031dd8);
+        
+    
+        var popup_7823e5389cae456a9515d5b4a05a47f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ce263547c1a47edba00184d284e2129 = $(`<div id="html_5ce263547c1a47edba00184d284e2129" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>55<br> <b>Lokasi : </b> Cipatat, Kab, Bandung Barat<br> <img src=https://drive.google.com/uc?id=1OMO56ixI18YAArhsERkDQd0eKVtggYb5 border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_7823e5389cae456a9515d5b4a05a47f6.setContent(html_5ce263547c1a47edba00184d284e2129);
+        
+
+        marker_847a070c94ec4a4cb25680a2c47efcb0.bindPopup(popup_7823e5389cae456a9515d5b4a05a47f6)
+        ;
+
+        
+    
+    
+            var marker_135e39f821be4122840907cfeef83cb2 = L.marker(
+                [-6.5008333333333335, 107.56022222222222],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_97e299c8e8784b9ea313ebac52a10c42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_135e39f821be4122840907cfeef83cb2.setIcon(icon_97e299c8e8784b9ea313ebac52a10c42);
+        
+    
+        var popup_05acdacac45d417f9409f5301bdb365f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11b9e005ce6a4bd3b149c4b0f14cca8a = $(`<div id="html_11b9e005ce6a4bd3b149c4b0f14cca8a" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>56<br> <b>Lokasi : </b> Ciparungsari, Kab, Purwakarta<br> <img src=https://drive.google.com/uc?id=1bAOtcBmr-gu52bHUQAuL-iamFM9UNCwM border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_05acdacac45d417f9409f5301bdb365f.setContent(html_11b9e005ce6a4bd3b149c4b0f14cca8a);
+        
+
+        marker_135e39f821be4122840907cfeef83cb2.bindPopup(popup_05acdacac45d417f9409f5301bdb365f)
+        ;
+
+        
+    
+    
+            var marker_c64cc03bb4284a0a852136c0586450fe = L.marker(
+                [-6.278611111111111, 107.17444444444445],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_8f2a43d01e6e4dc8839d7677026fa49b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c64cc03bb4284a0a852136c0586450fe.setIcon(icon_8f2a43d01e6e4dc8839d7677026fa49b);
+        
+    
+        var popup_950fda0818ba4d1ab93c8aa3cef9f6e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78ce525f32ed46deb86451a2697d254a = $(`<div id="html_78ce525f32ed46deb86451a2697d254a" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>57<br> <b>Lokasi : </b> Cikarang Utara, Kab, Bekasi<br> <img src=https://drive.google.com/uc?id=1Jh4kE2YFQLXBR2JJiJe0szAyfOYKkUlM border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_950fda0818ba4d1ab93c8aa3cef9f6e4.setContent(html_78ce525f32ed46deb86451a2697d254a);
+        
+
+        marker_c64cc03bb4284a0a852136c0586450fe.bindPopup(popup_950fda0818ba4d1ab93c8aa3cef9f6e4)
+        ;
+
+        
+    
+    
+            var marker_ab84d15821564bb3acbbe4f924bbda73 = L.marker(
+                [-7.679166666666667, 111.21555555555555],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_52152d77225d432eaf5edc0496ee780b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab84d15821564bb3acbbe4f924bbda73.setIcon(icon_52152d77225d432eaf5edc0496ee780b);
+        
+    
+        var popup_1355e195610344a9a217c21edcd37c96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69f27de223df4a76a2d6048b70968d5a = $(`<div id="html_69f27de223df4a76a2d6048b70968d5a" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>58<br> <b>Lokasi : </b> Plaosan, Kab, Magetan<br> <img src=https://drive.google.com/uc?id=1oBliYX7Zd-PT1Fqx-4UWB6eAbpNQrTFh border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_1355e195610344a9a217c21edcd37c96.setContent(html_69f27de223df4a76a2d6048b70968d5a);
+        
+
+        marker_ab84d15821564bb3acbbe4f924bbda73.bindPopup(popup_1355e195610344a9a217c21edcd37c96)
+        ;
+
+        
+    
+    
+            var marker_6085421eef244b55b62c00fb2ffaed99 = L.marker(
+                [-7.153888888888889, 111.59944444444444],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_6848f6854f8443f19838be50299dd114 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6085421eef244b55b62c00fb2ffaed99.setIcon(icon_6848f6854f8443f19838be50299dd114);
+        
+    
+        var popup_70bb801a619c4cdfb60bfd551cbf38f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27535c50b0ad4070a2cd6006aa159ecb = $(`<div id="html_27535c50b0ad4070a2cd6006aa159ecb" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>59<br> <b>Lokasi : </b> Padangan, Kab, Bojonegoro<br> <img src=https://drive.google.com/uc?id=150ppcecdezCyPHoS_Fdi-Kh3k_hC5De6 border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_70bb801a619c4cdfb60bfd551cbf38f1.setContent(html_27535c50b0ad4070a2cd6006aa159ecb);
+        
+
+        marker_6085421eef244b55b62c00fb2ffaed99.bindPopup(popup_70bb801a619c4cdfb60bfd551cbf38f1)
+        ;
+
+        
+    
+    
+            var marker_ada87c87196d46e29a5ad96b10ed4d02 = L.marker(
+                [-7.559444444444444, 110.8625],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_1121afa50d564f33b19c5790f7933f11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ada87c87196d46e29a5ad96b10ed4d02.setIcon(icon_1121afa50d564f33b19c5790f7933f11);
+        
+    
+        var popup_9c42cf7c4829432283798bdc5bc8a538 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_795be889218645208e0a9c6c96fb4bd3 = $(`<div id="html_795be889218645208e0a9c6c96fb4bd3" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>60<br> <b>Lokasi : </b> Jebres, Kota Surakarta<br> <img src=https://drive.google.com/uc?id=1qcyHfr2xDd3-RixUdvHJpyPYadY9VaZi border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_9c42cf7c4829432283798bdc5bc8a538.setContent(html_795be889218645208e0a9c6c96fb4bd3);
+        
+
+        marker_ada87c87196d46e29a5ad96b10ed4d02.bindPopup(popup_9c42cf7c4829432283798bdc5bc8a538)
+        ;
+
+        
+    
+    
+            var marker_2fd32dfb736341779bbda32ca432b3a6 = L.marker(
+                [-7.393888888888889, 112.56722222222221],
+                {}
+            ).addTo(feature_group_248607f0d616437ea2fec7da9cb2cb0b);
+        
+    
+            var icon_27b99515f223436295237c903730b744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fd32dfb736341779bbda32ca432b3a6.setIcon(icon_27b99515f223436295237c903730b744);
+        
+    
+        var popup_b1ff964cbf8341deaee8c973a05fadb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d096e4a40f46459aaf438bebf57e51ef = $(`<div id="html_d096e4a40f46459aaf438bebf57e51ef" style="width: 100.0%; height: 100.0%;"><b>No KLHK  : </b>61<br> <b>Lokasi : </b> Wringinanom, Kab, Gresik<br> <img src=https://drive.google.com/uc?id=1ftUTKsQ9Va0FbLODq3qv9jGLtfgvN6cI border: 1px solid #ddd border-radius: 4px padding: 5px width='200'></div>`)[0];
+            popup_b1ff964cbf8341deaee8c973a05fadb6.setContent(html_d096e4a40f46459aaf438bebf57e51ef);
+        
+
+        marker_2fd32dfb736341779bbda32ca432b3a6.bindPopup(popup_b1ff964cbf8341deaee8c973a05fadb6)
+        ;
+
+        
+    
+</script>
